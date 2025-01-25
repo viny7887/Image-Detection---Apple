@@ -7,7 +7,7 @@ Image Classification: The model uses CNNs to classify images based on whether th
 Real-Time Training: The model is trained using a large dataset, allowing it to classify images accurately.
 Data Augmentation: The training data is augmented using techniques like rotation, zoom, and flipping to increase the robustness of the model.
 Project Setup
-1. Clone the Repository
+1. Clone the Repository 
 First, clone the repository to your local machine:
 
 git clone https://github.com/your-username/image-detection.git
