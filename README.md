@@ -2,10 +2,10 @@
 
 **Project Overview**
 
-This project is designed to classify images using a Convolutional Neural Network (CNN). It classifies images into categories like "Car" vs. "Non-Car". The model is trained using a set of images and can predict whether a given image contains a car or not.
+This project is designed to classify images using a Convolutional Neural Network (CNN). It classifies images into categories like "Apple" vs. "Non-Apple". The model is trained using a set of images and can predict whether a given image contains an apple or not.
 
 Features
-Image Classification: The model uses CNNs to classify images based on whether they contain a car or not.
+Image Classification: The model uses CNNs to classify images based on whether they contain an apple or not.
 Real-Time Training: The model is trained using a large dataset, allowing it to classify images accurately.
 Data Augmentation: The training data is augmented using techniques like rotation, zoom, and flipping to increase the robustness of the model.
 Project Setup
@@ -22,17 +22,17 @@ pip install -r requirements.txt
 3. Prepare the Dataset
 To train the model, you need to have the image dataset organized in folders:
 
-train_data: Contains images of cars and non-cars for training.
-validation_data: Contains images of cars and non-cars for validation during training.
+train_data: Contains images of apples and non-apples for training.
+validation_data: Contains images of apples and non-apples for validation during training.
 test_data: Contains unseen images used for testing the trained model.
 The dataset should be placed in these directories as:
 
-train_data/car
-train_data/non_car
-validation_data/car
-validation_data/non_car
-test_data/car
-test_data/non_car
+train_data/apple
+train_data/non_apple
+validation_data/apple
+validation_data/non_apple
+test_data/apple
+test_data/non_apple
 4. Train the Model
 Once the dataset is ready, you can start training the model. Run the following command:
 
