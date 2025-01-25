@@ -1,5 +1,7 @@
 **Image Detection with Convolutional Neural Networks (CNN)**
-Project Overview
+
+**Project Overview**
+
 This project is designed to classify images using a Convolutional Neural Network (CNN). It classifies images into categories like "Car" vs. "Non-Car". The model is trained using a set of images and can predict whether a given image contains a car or not.
 
 Features
